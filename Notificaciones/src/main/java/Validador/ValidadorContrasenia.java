@@ -1,4 +1,4 @@
-package Validator;
+package Validador;
 
 import importerTXT.ImporterTXT;
 
@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.Collections;
 import java.util.List;
 
-public class PasswordValidator {
+public class ValidadorContrasenia {
 
     private ImporterTXT importerTXT;
 

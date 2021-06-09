@@ -2,14 +2,14 @@ package ValidatorTest;
 
 import org.junit.Assert;
 import org.junit.Test;
-import Validator.PasswordValidator;
+import Validador.ValidadorContrasenia;
 
 import java.io.IOException;
 
 public class ValidatorTest {
 
     private String password;
-    private PasswordValidator validator;
+    private ValidadorContrasenia validator;
 
     @Test
     public void comprobarContraseniaValida() throws IOException {
